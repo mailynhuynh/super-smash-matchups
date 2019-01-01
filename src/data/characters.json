@@ -1,0 +1,304 @@
+{
+    "character": [
+    {
+      "name": "Isabelle",
+      "image": ""
+    },
+    {
+      "name": "Villager",
+      "image": ""
+    },
+    {
+      "name": "Beyonetta",
+      "image": ""
+    },
+    {
+      "name": "Simon",
+      "image": ""
+    },
+    {
+      "name": "Diddy Kong",
+      "image": ""
+    },
+    {
+      "name": "Donkey Kong",
+      "image": ""
+    },
+    {
+      "name": "King K. Rool",
+      "image": ""
+    },
+    {
+      "name": "Duck Hunt",
+      "image": ""
+    },
+    {
+      "name": "Lucas",
+      "image": ""
+    },
+    {
+      "name": "Ness",
+      "image": ""
+    },
+    {
+      "name": "Captain Falcon",
+      "image": ""
+    },
+    {
+      "name": "Cloud",
+      "image": ""
+    },
+    {
+      "name": "Chrom",
+      "image": ""
+    },
+    {
+      "name": "Corrin",
+      "image": ""
+    },
+    {
+      "name": "Ike",
+      "image": ""
+    },
+    {
+      "name": "Lucina",
+      "image": ""
+    },
+    {
+      "name": "Marth",
+      "image": ""
+    },
+    {
+      "name": "Robin",
+      "image": ""
+    },
+    {
+      "name": "Roy",
+      "image": ""
+    },
+    {
+      "name": "Mr. Game & Watch",
+      "image": ""
+    },
+    {
+      "name": "Ice Climbers",
+      "image": ""
+    },
+    {
+      "name": "Dark Pit",
+      "image": ""
+    },
+    {
+      "name": "Palutena",
+      "image": ""
+    },
+    {
+      "name": "Pit",
+      "image": ""
+    },
+    {
+      "name": "King Dedede",
+      "image": ""
+    },
+    {
+      "name": "Kirby",
+      "image": ""
+    },
+    {
+      "name": "Meta Knight",
+      "image": ""
+    },
+    {
+      "name": "Bowser",
+      "image": ""
+    },
+    {
+      "name": "Bowser Jr.",
+      "image": ""
+    },
+    {
+      "name": "Daisy",
+      "image": ""
+    },
+    {
+      "name": "Dr. Mario",
+      "image": ""
+    },
+    {
+      "name": "Luigi",
+      "image": ""
+    },
+    {
+      "name": "Mario",
+      "image": ""
+    },
+    {
+      "name": "Peach",
+      "image": ""
+    },
+    {
+      "name": "Piranha Plant",
+      "image": ""
+    },
+    {
+      "name": "Rosalina & Luma",
+      "image": ""
+    },
+    {
+      "name": "Mega Man",
+      "image": ""
+    },
+    {
+      "name": "Snake",
+      "image": ""
+    },
+    {
+      "name": "Dark Samus",
+      "image": ""
+    },
+    {
+      "name": "Ridley",
+      "image": ""
+    },
+    {
+      "name": "Samus",
+      "image": ""
+    },
+    {
+      "name": "Zero suit Samus",
+      "image": ""
+    },
+    {
+      "name": "Pac Man",
+      "image": ""
+    },
+    {
+      "name": "Joker",
+      "image": ""
+    },
+    {
+      "name": "Olimar",
+      "image": "Greninja"
+    },
+    {
+      "name": "Incineroar",
+      "image": ""
+    },
+    {
+      "name": "Lucario",
+      "image": "Mewtwo"
+    },
+    {
+      "name": "Pichu",
+      "image": ""
+    },
+    {
+      "name": "Pikahcu",
+      "image": ""
+    },
+    {
+      "name": "Ivysaur",
+      "image": ""
+    },
+    {
+      "name": "Squirtle",
+      "image": ""
+    },
+    {
+      "name": "Charizard",
+      "image": ""
+    },
+    {
+      "name": "Pokemon Trainer",
+      "image": ""
+    },
+    {
+      "name": "Little Mac",
+      "image": ""
+    },
+    {
+      "name": "R.O.B.",
+      "image": ""
+    },
+    {
+      "name": "Sonic",
+      "image": ""
+    },
+    {
+      "name": "Inkling",
+      "image": ""
+    },
+    {
+      "name": "Falco",
+      "image": ""
+    },
+    {
+      "name": "Fox",
+      "image": ""
+    },
+    {
+      "name": "Wolf",
+      "image": ""
+    },
+    {
+      "name": "Ken",
+      "image": ""
+    },
+    {
+      "name": "Ryu",
+      "image": ""
+    },
+    {
+      "name": "Mii Brawler",
+      "image": ""
+    },
+    {
+      "name": "Mii Gunner",
+      "image": ""
+    },
+    {
+      "name": "Mii Swordfighter",
+      "image": ""
+    },
+    {
+      "name": "Wario",
+      "image": ""
+    },
+    {
+      "name": "Wii Fit Trainer",
+      "image": ""
+    },
+    {
+      "name": "Shulk",
+      "image": ""
+    },
+    {
+      "name": "Yoshi",
+      "image": ""
+    },
+    {
+      "name": "Ganondorf",
+      "image": ""
+    },
+    {
+      "name": "Link",
+      "image": ""
+    },
+    {
+      "name": "Shelk",
+      "image": ""
+    },
+    {
+      "name": "Toon Link",
+      "image": ""
+    },
+    {
+      "name": "Young Link",
+      "image": ""
+    },
+    {
+      "name": "Zelda",
+      "image": ""
+    }
+  ]
+}

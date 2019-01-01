@@ -1,0 +1,47 @@
+.slots{
+  text-align: center;
+  height: 400px;
+  div#slot-1, div#slot-2{
+    display: inline-block;
+    border: 5px solid #444;
+    border-style: dashed;
+    height: 310px;
+
+    width: 310px;
+    margin: 20px;
+    vertical-align: top;
+
+    .card{
+      height: 320px;
+      background: white;
+      margin: -5px -5px;
+      .card-image{
+        height: 280px;
+        background: cadetblue;
+      }
+      .card-body{
+        padding: 10px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: 900px;
+      }
+      &:hover{
+        // to delete card from slot
+        cursor: pointer;
+        opacity: 0.8;
+      }
+      @media (max-width: 960px) {
+        height: 210px;
+
+        .card-image{
+          height: 150px;
+        }
+      }
+    }
+    @media (max-width: 960px) {
+      height: 200px;
+      width: 30%;
+    }
+  }
+  
+}
