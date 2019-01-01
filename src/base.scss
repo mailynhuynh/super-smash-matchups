@@ -1,34 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700|PT+Sans:400,700|Source+Sans+Pro:400,700,900');
-.characters{
-  box-sizing: border-box;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700|PT+Sans:400,700|Source+Sans+Pro:400,700,900");
+
+.characters {
+    box-sizing: border-box;
+    padding: 0 10px;
+    outline: none;
 }
 
-html{
-  background: #f5f5f5;
-  font-family: 'PT Sans';
-  text-rendering: optimizeLegibility;
-}
-body{
-  margin: 0;
-}
-header{
-  background:black;
-  color: white;
-  padding: 20px;
-  margin-bottom: 60px;
+html {
+    background: #f5f5f5;
+    font-family: 'PT Sans';
+    text-rendering: optimizeLegibility;
 }
 
-.main-container{
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  @media (max-width: 960px) {
-    width: 90%;
+body {
+    margin: 0;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.main-container {
+    max-width: 960px;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-  }
+
+    @media (max-width: 960px) {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
 
 
+.slick-initialized{
+  .slick-slide{
+    width: fit-content;
+  }
+}
+
+.slick-list{
+  width: 88%;
+  margin: 0 auto;
+}
+.slick-next, .slick-prev{
+  width: 30px;
+  height: 30px;
+}
+
+.slick-next:before, .slick-prev:before{
+  font-size: 30px;
+  color: #666
+}
