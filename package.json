@@ -1,35 +1,26 @@
 {
-  "name": "super-smash-bros-matchups",
-  "version": "0.0.1",
-  "description": "battle info for super smash bro characters",
-  "main": "index.jsx",
-  "scripts": {
-    "build": "webpack",
-    "watch": "webpack --w",
-    "start": "webpack-dev-server --open"
-  },
-  "author": "kamsi ibeziako",
-  "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "file-loader": "^3.0.1",
-    "lightslider": "^1.1.6",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "url-loader": "^1.1.2"
-  },
+  "name": "super-smash-matchups",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "css-loader": "^2.1.0",
-    "json-loader": "^0.5.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-router-dom": "^4.3.1",
-    "style-loader": "^0.23.1",
-    "webpack": "^3.12.0",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^2.11.1"
-  }
+    "react-scripts": "2.1.2",
+    "react-slick": "^0.23.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

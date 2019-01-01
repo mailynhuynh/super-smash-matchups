@@ -2,43 +2,53 @@
     "character": [
     {
       "name": "Isabelle",
-      "image": ""
+      "image": "",
+      "color": "#423"
     },
     {
       "name": "Villager",
-      "image": ""
+      "image": "",
+      "color": "#436"
     },
     {
       "name": "Beyonetta",
-      "image": ""
+      "image": "",
+      "color": "#132"
     },
     {
       "name": "Simon",
-      "image": ""
+      "image": "",
+      "color": "#f7921d"
     },
     {
       "name": "Diddy Kong",
-      "image": ""
+      "image": "",
+      "color": "#425"
     },
     {
       "name": "Donkey Kong",
-      "image": ""
+      "image": "",
+      "color": "#232"
     },
     {
       "name": "King K. Rool",
-      "image": ""
+      "image": "",
+      "color": "#666"
     },
     {
       "name": "Duck Hunt",
-      "image": ""
+      "image": "",
+      "color": "#877"
     },
     {
       "name": "Lucas",
-      "image": ""
+      "image": "",
+      "color": "#818"
     },
     {
       "name": "Ness",
-      "image": ""
+      "image": "",
+      "color": "#2fd921"
     },
     {
       "name": "Captain Falcon",
