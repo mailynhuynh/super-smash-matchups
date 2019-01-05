@@ -1,0 +1,2812 @@
+{
+  "characters": [
+    {
+      "image": "",
+      "fall-speed": 61,
+      "unlock": [
+        {
+          "wofl": "Villager route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Samus, Shulk"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 75,
+      "run-speed": 38,
+      "universe": "Animal Crossing",
+      "name": "Isabelle",
+      "weight": 65,
+      "spirits": [
+        {
+          "primary": "Wolf Link & Midna"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Fi"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 62,
+      "unlock": [
+        {
+          "wofl": "One of the first 3 routes (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Pikachu"
+        },
+        {
+          "vs-mode": "Play PacMan"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 73,
+      "run-speed": 36,
+      "universe": "Animal Crossing",
+      "name": "Villager",
+      "weight": 68,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Fi"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Revali"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 84,
+      "unlock": [
+        {
+          "wofl": "The Final Battle"
+        },
+        {
+          "classic-mode": "Unlocked By Sonic"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 75,
+      "run-speed": 45,
+      "universe": "Bayonetta",
+      "name": "Bayonetta",
+      "weight": 60,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Rock Mario"
+        },
+        {
+          "slot-2": "Revali"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 88,
+      "unlock": [
+        {
+          "wofl": "Near final boss (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Ice Climbers and King K Rool"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 69,
+      "run-speed": 39,
+      "universe": "Castlevania",
+      "name": "Simon",
+      "weight": 79,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Weezing"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 71
+    },
+    {
+      "image": "",
+      "fall-speed": 83,
+      "unlock": [
+        {
+          "wofl": ""
+        },
+        {
+          "classic-mode": ""
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 68,
+      "run-speed": 52,
+      "universe": "Donkey Kong",
+      "name": "Diddy Kong",
+      "weight": 66,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Rock Mario"
+        },
+        {
+          "slot-2": "Cappy"
+        },
+        {
+          "slot-3": "Rathalos"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 77,
+      "unlock": [
+        {
+          "wofl": "Marth route (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Zelda"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 89,
+      "run-speed": 48,
+      "universe": "Donkey Kong",
+      "name": "Donkey Kong",
+      "weight": 94,
+      "spirits": [
+        {
+          "primary": "Hoopa (Unbound)"
+        },
+        {
+          "slot-1": "Ricky"
+        },
+        {
+          "slot-2": "Piston Hodo"
+        },
+        {
+          "slot-3": "Ezlo"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 80,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension, near Risky Boots\u2019 spirit (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Link"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 70,
+      "run-speed": 38,
+      "universe": "Donkey Kong",
+      "name": "King K. Rool",
+      "weight": 98,
+      "spirits": [
+        {
+          "primary": "Hoopa (Unbound)"
+        },
+        {
+          "slot-1": "Ezlo"
+        },
+        {
+          "slot-2": "Revali"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 78,
+      "unlock": [
+        {
+          "wofl": "Poison Woods (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Pichu"
+        },
+        {
+          "vs-mode": "Play Palutena"
+        }
+      ],
+      "tier": "F",
+      "air-speed": 85,
+      "run-speed": 46,
+      "universe": "Duck Hunt",
+      "name": "Duck Hunt",
+      "weight": 63,
+      "spirits": [
+        {
+          "primary": "Dark Daroach"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Revali"
+        }
+      ],
+      "dash-speed": 72
+    },
+    {
+      "image": "",
+      "fall-speed": 65,
+      "unlock": [
+        {
+          "wofl": "Northwestern Town (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Corrin, Ken"
+        },
+        {
+          "vs-mode": "Play Corrin"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 85,
+      "run-speed": 42,
+      "universe": "EarthBound",
+      "name": "Lucas",
+      "weight": 69,
+      "spirits": [
+        {
+          "primary": "Tabuu"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Psyduck"
+        },
+        {
+          "slot-3": "The Skull"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 62,
+      "unlock": [
+        {
+          "wofl": "Magicant-like area (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Kirby"
+        },
+        {
+          "vs-mode": "Play Captain Falcon"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 74,
+      "run-speed": 41,
+      "universe": "EarthBound",
+      "name": "Ness",
+      "weight": 69,
+      "spirits": [
+        {
+          "primary": "Tabuu"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Psyduck"
+        },
+        {
+          "slot-3": "The Skull"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 88,
+      "unlock": [
+        {
+          "wofl": "Villager Route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Fox"
+        },
+        {
+          "vs-mode": "Play Peach"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 90,
+      "run-speed": 66,
+      "universe": "F-Zero",
+      "name": "Captain Falcon",
+      "weight": 77,
+      "spirits": [
+        {
+          "primary": "Dark Daroach"
+        },
+        {
+          "slot-1": "Weezing"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Rock Mario"
+        }
+      ],
+      "dash-speed": 81
+    },
+    {
+      "image": "",
+      "fall-speed": 80,
+      "unlock": [
+        {
+          "wofl": "Sacred Land. Unlock Zelda first, path will upon up to lead to him (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Dark Samus"
+        },
+        {
+          "vs-mode": "Play Daisy, Pokemon Trainer, Roy."
+        }
+      ],
+      "tier": "A",
+      "air-speed": 85,
+      "run-speed": 56,
+      "universe": "Final Fantasy",
+      "name": "Cloud",
+      "weight": 74,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 88
+    },
+    {
+      "image": "",
+      "fall-speed": 85,
+      "unlock": [
+        {
+          "wofl": "Sacred Land. Near a treasure chest. Press (A) on an open treasure chest. (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Ridley, Yoshi"
+        },
+        {
+          "vs-mode": "Play Roy"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 96,
+      "run-speed": 55,
+      "universe": "Fire Emblem",
+      "name": "Chrom",
+      "weight": 70,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Ezlo"
+        }
+      ],
+      "dash-speed": 90
+    },
+    {
+      "image": "",
+      "fall-speed": 78,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension, near Azura\u2019s spirit (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Robin"
+        },
+        {
+          "vs-mode": "Play Lucas, Bayonetta"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 75,
+      "run-speed": 41,
+      "universe": "Fire Emblem",
+      "name": "Corrin",
+      "weight": 72,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Wooper"
+        }
+      ],
+      "dash-speed": 78
+    },
+    {
+      "image": "",
+      "fall-speed": 78,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Little Mac"
+        },
+        {
+          "vs-mode": "Play Meta Knight"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 84,
+      "run-speed": 39,
+      "universe": "Fire Emblem",
+      "name": "Ike",
+      "weight": 79,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Victini"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 75,
+      "unlock": [
+        {
+          "wofl": "Right route, The Dark Realm (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Marth, Ryu"
+        },
+        {
+          "vs-mode": "Play Lucina"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 79,
+      "run-speed": 51,
+      "universe": "Fire Emblem",
+      "name": "Lucina",
+      "weight": 66,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Wolfen"
+        }
+      ],
+      "dash-speed": 93
+    },
+    {
+      "image": "",
+      "fall-speed": 75,
+      "unlock": [
+        {
+          "wofl": "Starting Path (World of Light)"
+        },
+        {
+          "classic-mode": ""
+        },
+        {
+          "vs-mode": "Play Wario"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 79,
+      "run-speed": 51,
+      "universe": "Fire Emblem",
+      "name": "Marth",
+      "weight": 66,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Wolfen"
+        }
+      ],
+      "dash-speed": 93
+    },
+    {
+      "image": "",
+      "fall-speed": 71,
+      "unlock": [
+        {
+          "wofl": "Defeat Werewolf\u2019s spirit in Dracula\u2019s Castle before entering (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Zelda"
+        },
+        {
+          "vs-mode": "Play Mewtwo"
+        }
+      ],
+      "tier": "F",
+      "air-speed": 78,
+      "run-speed": 32,
+      "universe": "Fire Emblem",
+      "name": "Robin",
+      "weight": 70,
+      "spirits": [
+        {
+          "primary": "Marx (True Form)"
+        },
+        {
+          "slot-1": "Wanda"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Zapfish"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 85,
+      "unlock": [
+        {
+          "wofl": "The Final Battle"
+        },
+        {
+          "classic-mode": "Unlocked by Little Mac"
+        },
+        {
+          "vs-mode": "Play Lucario"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 96,
+      "run-speed": 55,
+      "universe": "Fire Emblem",
+      "name": "Roy",
+      "weight": 70,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Weezing"
+        }
+      ],
+      "dash-speed": 90
+    },
+    {
+      "image": "",
+      "fall-speed": 59,
+      "unlock": [
+        {
+          "wofl": "Pac-Maze area (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by ROB"
+        },
+        {
+          "vs-mode": "Play King Dedede"
+        }
+      ],
+      "tier": "E",
+      "air-speed": 87,
+      "run-speed": 43,
+      "universe": "Game & Watch",
+      "name": "Mr. Game & watch",
+      "weight": 55,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 81
+    },
+    {
+      "image": "",
+      "fall-speed": 61,
+      "unlock": [
+        {
+          "wofl": "Villager route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by King K Rool"
+        },
+        {
+          "vs-mode": "Play Sonic"
+        }
+      ],
+      "tier": "F",
+      "air-speed": 61,
+      "run-speed": 39,
+      "universe": "Ice Climber",
+      "name": "Ice Climbers",
+      "weight": 68,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Wooper"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Rock Mario"
+        }
+      ],
+      "dash-speed": 69
+    },
+    {
+      "image": "",
+      "fall-speed": 70,
+      "unlock": [
+        {
+          "wofl": "Defeat Boo's Spirit at Dracula's Castle before encounter (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Wario"
+        },
+        {
+          "vs-mode": "Play Luigi"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 69,
+      "run-speed": 47,
+      "universe": "Kid Icarus",
+      "name": "Dark Pit",
+      "weight": 71,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Rathalos"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Zapfish"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 73,
+      "unlock": [
+        {
+          "wofl": "Final Battle - Near Mythra\u2019s Spirit"
+        },
+        {
+          "classic-mode": "Unlocked by Lucas, Ryu, Young Link"
+        },
+        {
+          "vs-mode": "Play Greninja"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 74,
+      "run-speed": 53,
+      "universe": "Kid Icarus",
+      "name": "Palutena",
+      "weight": 67,
+      "spirits": [
+        {
+          "primary": "Marx (True Form)"
+        },
+        {
+          "slot-1": "Revali"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Victini"
+        }
+      ],
+      "dash-speed": 84
+    },
+    {
+      "image": "",
+      "fall-speed": 70,
+      "unlock": [
+        {
+          "wofl": "Temple of Light Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Wii Fit Trainer"
+        },
+        {
+          "vs-mode": "Play Falco"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 69,
+      "run-speed": 47,
+      "universe": "Kid Icarus",
+      "name": "Pit",
+      "weight": 71,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Rathalos"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 92,
+      "unlock": [
+        {
+          "wofl": "Sub-Area (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Pokemon Trainer"
+        },
+        {
+          "vs-mode": "Play Bayonetta"
+        }
+      ],
+      "tier": "E",
+      "air-speed": 54,
+      "run-speed": 38,
+      "universe": "Kirby",
+      "name": "King Dedede",
+      "weight": 94,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Wind Fish"
+        },
+        {
+          "slot-3": "Hard Man"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 58,
+      "unlock": [
+        {
+          "wofl": "Starter Character"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Marth"
+        }
+      ],
+      "tier": "F",
+      "air-speed": 62,
+      "run-speed": 44,
+      "universe": "Kirby",
+      "name": "Kirby",
+      "weight": 58,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Weezing"
+        },
+        {
+          "slot-2": "Fi"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 78
+    },
+    {
+      "image": "",
+      "fall-speed": 79,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked By Simon"
+        },
+        {
+          "vs-mode": "Play R.O.B."
+        }
+      ],
+      "tier": "A",
+      "air-speed": 77,
+      "run-speed": 54,
+      "universe": "Kirby",
+      "name": "Meta Knight",
+      "weight": 59,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Hard Man"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Beat"
+        }
+      ],
+      "dash-speed": 91
+    },
+    {
+      "image": "",
+      "fall-speed": 84,
+      "unlock": [
+        {
+          "wofl": "Molten Castle Dungeon (World of Light)"
+        },
+        {
+          "classic-mode": ""
+        },
+        {
+          "vs-mode": "Play King K Rool"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 85,
+      "run-speed": 51,
+      "universe": "Mario",
+      "name": "Bowser",
+      "weight": 100,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Weezing"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Victini"
+        }
+      ],
+      "dash-speed": 93
+    },
+    {
+      "image": "",
+      "fall-speed": 78,
+      "unlock": [
+        {
+          "wofl": "Sacred Land (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Falco, Donkey Kong"
+        },
+        {
+          "vs-mode": "Play Dr Mario"
+        }
+      ],
+      "tier": "E",
+      "air-speed": 84,
+      "run-speed": 40,
+      "universe": "Mario",
+      "name": "Bowser Jr.",
+      "weight": 80,
+      "spirits": [
+        {
+          "primary": "Dark Daroach"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Victini"
+        },
+        {
+          "slot-3": "Revali"
+        }
+      ],
+      "dash-speed": 72
+    },
+    {
+      "image": "",
+      "fall-speed": 56,
+      "unlock": [
+        {
+          "wofl": "Defeat Dry Bowser's Spirit at Dracula's Castle (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Falco"
+        },
+        {
+          "vs-mode": "Play Jigglypuff"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 76,
+      "run-speed": 41,
+      "universe": "Mario",
+      "name": "Daisy",
+      "weight": 65,
+      "spirits": [
+        {
+          "primary": "Dixie Kong & Kiddy Kong"
+        },
+        {
+          "slot-1": "Mona"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Beat"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 71,
+      "unlock": [
+        {
+          "wofl": "Villager route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Roy, Bayonetta, King K Rool"
+        },
+        {
+          "vs-mode": "Play Little Mac"
+        }
+      ],
+      "tier": "E",
+      "air-speed": 89,
+      "run-speed": 45,
+      "universe": "Mario",
+      "name": "Dr. Mario",
+      "weight": 72,
+      "spirits": [
+        {
+          "primary": "Giga Mac"
+        },
+        {
+          "slot-1": "Ricky"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Victini"
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 62,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Ike"
+        },
+        {
+          "vs-mode": "Play Ice Climbers"
+        }
+      ],
+      "tier": "E",
+      "air-speed": 57,
+      "run-speed": 42,
+      "universe": "Mario",
+      "name": "Luigi",
+      "weight": 71,
+      "spirits": [
+        {
+          "primary": "Donkey Kong & Lady"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Rathalos"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 71,
+      "unlock": [
+        {
+          "wofl": "1st Character (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Ness"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 89,
+      "run-speed": 45,
+      "universe": "Mario",
+      "name": "Mario",
+      "weight": 72,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Ricky"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Weezing"
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 56,
+      "unlock": [
+        {
+          "wofl": "Molten Castle Dungeon (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Falco"
+        },
+        {
+          "vs-mode": "Play Ike"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 76,
+      "run-speed": 41,
+      "universe": "Mario",
+      "name": "Peach",
+      "weight": 65,
+      "spirits": [
+        {
+          "primary": "Dixie Kong & Kiddy Kong"
+        },
+        {
+          "slot-1": "Mona"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Beat"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 76,
+      "unlock": [
+        {
+          "wofl": "DLC"
+        },
+        {
+          "classic-mode": "DLC"
+        },
+        {
+          "vs-mode": "Play DLC"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 74,
+      "run-speed": 29,
+      "universe": "Mario",
+      "name": "Piranha Plant",
+      "weight": 69,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 57,
+      "unlock": [
+        {
+          "wofl": "Top middle route, Dark Realm (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Pokemon Trainer, Pichu"
+        },
+        {
+          "vs-mode": "Play Mr Game & Watch"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 78,
+      "run-speed": 46,
+      "universe": "Mario",
+      "name": "Rosalina & Luma",
+      "weight": 60,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Fi"
+        },
+        {
+          "slot-3": "Rock Mario"
+        }
+      ],
+      "dash-speed": 84
+    },
+    {
+      "image": "",
+      "fall-speed": 85,
+      "unlock": [
+        {
+          "wofl": "Marth Route Near Sigma Spirit (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Wario"
+        },
+        {
+          "vs-mode": "Play Dark Samus"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 85,
+      "run-speed": 41,
+      "universe": "Mega Man",
+      "name": "Mega Man",
+      "weight": 75,
+      "spirits": [
+        {
+          "primary": "Dark Daroach"
+        },
+        {
+          "slot-1": "Chozo Statue"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Revali"
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 82,
+      "unlock": [
+        {
+          "wofl": "Metal Gear Base Dungeon (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Meta Knight"
+        },
+        {
+          "vs-mode": "Play Diddy Kong"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 73,
+      "run-speed": 41,
+      "universe": "Metal Gear",
+      "name": "Snake",
+      "weight": 78,
+      "spirits": [
+        {
+          "primary": "Dark Daroach"
+        },
+        {
+          "slot-1": "Weezing"
+        },
+        {
+          "slot-2": "Chozo Statue"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 72
+    },
+    {
+      "image": "",
+      "fall-speed": 63,
+      "unlock": [
+        {
+          "wofl": "The Final Battle"
+        },
+        {
+          "classic-mode": "Unlocked by Samus"
+        },
+        {
+          "vs-mode": "Play Inkling"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 82,
+      "run-speed": 42,
+      "universe": "Metroid",
+      "name": "Dark Samus",
+      "weight": 80,
+      "spirits": [
+        {
+          "primary": "Isaac (Dark Dawn)"
+        },
+        {
+          "slot-1": "Chozo Statue"
+        },
+        {
+          "slot-2": "Fi"
+        },
+        {
+          "slot-3": "Weezing"
+        }
+      ],
+      "dash-speed": 77
+    },
+    {
+      "image": "",
+      "fall-speed": 84,
+      "unlock": [
+        {
+          "wofl": "Defeat The Creature & Flea Man spirit in Dracula's Castle before encounter (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Lucina"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 78,
+      "run-speed": 57,
+      "universe": "Metroid",
+      "name": "Ridley",
+      "weight": 79,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Weezing"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 74
+    },
+    {
+      "image": "",
+      "fall-speed": 63,
+      "unlock": [
+        {
+          "wofl": "Temple of Light (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Pit"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 82,
+      "run-speed": 42,
+      "universe": "Metroid",
+      "name": "Samus",
+      "weight": 80,
+      "spirits": [
+        {
+          "primary": "Isaac (Dark Dawn)"
+        },
+        {
+          "slot-1": "Chozo Statue"
+        },
+        {
+          "slot-2": "Fi"
+        },
+        {
+          "slot-3": "Weezing"
+        }
+      ],
+      "dash-speed": 77
+    },
+    {
+      "image": "",
+      "fall-speed": 80,
+      "unlock": [
+        {
+          "wofl": "Raging Volcano (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Captain Falcon"
+        },
+        {
+          "vs-mode": "Play Pichu"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 93,
+      "run-speed": 60,
+      "universe": "Metroid",
+      "name": "Zero Suit Samus",
+      "weight": 59,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Mimicutie"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Tails"
+        }
+      ],
+      "dash-speed": 100
+    },
+    {
+      "image": "",
+      "fall-speed": 64,
+      "unlock": [
+        {
+          "wofl": "Marth route (World of Light)"
+        },
+        {
+          "classic-mode": "If already unlocked Jigglypuff, unlocked by Ness"
+        },
+        {
+          "vs-mode": "Play Chrom"
+        }
+      ],
+      "tier": "F",
+      "air-speed": 81,
+      "run-speed": 43,
+      "universe": "Pac-Man",
+      "name": "Pac Man",
+      "weight": 70,
+      "spirits": [
+        {
+          "primary": "Dixie Kong & Kiddy Kong"
+        },
+        {
+          "slot-1": "Rock Mario"
+        },
+        {
+          "slot-2": "Shine Sprite"
+        },
+        {
+          "slot-3": "Cappy"
+        }
+      ],
+      "dash-speed": 77
+    },
+    {
+      "image": "",
+      "fall-speed": 0,
+      "unlock": [
+        {
+          "wofl": ""
+        },
+        {
+          "classic-mode": ""
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "T",
+      "air-speed": 0,
+      "run-speed": 0,
+      "universe": "Persona",
+      "name": "Joker",
+      "weight": 0,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 0
+    },
+    {
+      "image": "",
+      "fall-speed": 64,
+      "unlock": [
+        {
+          "wofl": "Marth Route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Little Mac"
+        },
+        {
+          "vs-mode": "Play Toon Link"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 64,
+      "run-speed": 42,
+      "universe": "Pikmin",
+      "name": "Olimar",
+      "weight": 58,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Rathalos"
+        },
+        {
+          "slot-2": "Julius Belmont"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 66
+    },
+    {
+      "image": "",
+      "fall-speed": 64,
+      "unlock": [
+        {
+          "wofl": "Marth Route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Little Mac"
+        },
+        {
+          "vs-mode": "Play Toon Link"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 64,
+      "run-speed": 42,
+      "universe": "Pikmin",
+      "name": "Olimar",
+      "weight": 58,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Rathalos"
+        },
+        {
+          "slot-2": "Julius Belmont"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 66
+    },
+    {
+      "image": "",
+      "fall-speed": 75,
+      "unlock": [
+        {
+          "wofl": "Nintendo Themed City Northwest of Srarting Area (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Samus"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 89,
+      "run-speed": 50,
+      "universe": "Splatoon",
+      "name": "Inkling",
+      "weight": 69,
+      "spirits": [
+        {
+          "primary": "Ruto"
+        },
+        {
+          "slot-1": "Wooper"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Revali"
+        }
+      ],
+      "dash-speed": 87
+    },
+    {
+      "image": "",
+      "fall-speed": 88,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Rosalina"
+        },
+        {
+          "vs-mode": "Play Dark Pit"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 92,
+      "run-speed": 59,
+      "universe": "Pok�mon",
+      "name": "Greninja",
+      "weight": 65,
+      "spirits": [
+        {
+          "primary": "Ruto"
+        },
+        {
+          "slot-1": "Reaper & Reapette"
+        },
+        {
+          "slot-2": "Wooper"
+        },
+        {
+          "slot-3": "Fi"
+        }
+      ],
+      "dash-speed": 90
+    },
+    {
+      "image": "",
+      "fall-speed": 83,
+      "unlock": [
+        {
+          "wofl": "Left Route, The Dark Realm (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Wii Fit Trainer"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 65,
+      "run-speed": 30,
+      "universe": "Pok�mon",
+      "name": "Incineroar",
+      "weight": 85,
+      "spirits": [
+        {
+          "primary": "Donkey Kong & Lady"
+        },
+        {
+          "slot-1": "Rock Mario"
+        },
+        {
+          "slot-2": "Weezing"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 72
+    },
+    {
+      "image": "",
+      "fall-speed": 46,
+      "unlock": [
+        {
+          "wofl": "Shiek's Path (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Ness (1st time)"
+        },
+        {
+          "vs-mode": "Play Ryu"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 99,
+      "run-speed": 33,
+      "universe": "Pok�mon",
+      "name": "Jiggly Puff",
+      "weight": 50,
+      "spirits": [
+        {
+          "primary": "Waluigi"
+        },
+        {
+          "slot-1": "Rathalos"
+        },
+        {
+          "slot-2": "Beat"
+        },
+        {
+          "slot-3": "Mimicutie"
+        }
+      ],
+      "dash-speed": 68
+    },
+    {
+      "image": "",
+      "fall-speed": 80,
+      "unlock": [
+        {
+          "wofl": "Villager Route (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Yoshi"
+        },
+        {
+          "vs-mode": "Play Rosalina and Luma"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 95,
+      "run-speed": 44,
+      "universe": "Pok�mon",
+      "name": "Lucario",
+      "weight": 68,
+      "spirits": [
+        {
+          "primary": "Rodin, the Infinite One"
+        },
+        {
+          "slot-1": "Merric"
+        },
+        {
+          "slot-2": "Yama"
+        },
+        {
+          "slot-3": "Pyukumuku"
+        }
+      ],
+      "dash-speed": 93
+    },
+    {
+      "image": "",
+      "fall-speed": 73,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension, defeat Wispy Woods\u2019 spirit (World of Dark)"
+        },
+        {
+          "classic-mode": ""
+        },
+        {
+          "vs-mode": "Play Daisy"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 97,
+      "run-speed": 58,
+      "universe": "Pok�mon",
+      "name": "Mewtwo",
+      "weight": 57,
+      "spirits": [
+        {
+          "primary": "Tabuu"
+        },
+        {
+          "slot-1": "Psyduck"
+        },
+        {
+          "slot-2": "The Skull"
+        },
+        {
+          "slot-3": "Fi"
+        }
+      ],
+      "dash-speed": 93
+    },
+    {
+      "image": "",
+      "fall-speed": 90,
+      "unlock": [
+        {
+          "wofl": "Power Plant Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Isabelle"
+        },
+        {
+          "vs-mode": "Play Isabelle"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 76,
+      "run-speed": 49,
+      "universe": "Pok�mon",
+      "name": "Pichu",
+      "weight": 45,
+      "spirits": [
+        {
+          "primary": "Fawful"
+        },
+        {
+          "slot-1": "Zapfish"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 81
+    },
+    {
+      "image": "",
+      "fall-speed": 73,
+      "unlock": [
+        {
+          "wofl": "Cliffside Rapids (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Wii Fit Trainer"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 71,
+      "run-speed": 52,
+      "universe": "Pok�mon",
+      "name": "Pikachu",
+      "weight": 58,
+      "spirits": [
+        {
+          "primary": "Fawful"
+        },
+        {
+          "slot-1": "Zapfish"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 81
+    },
+    {
+      "image": "",
+      "fall-speed": 65,
+      "unlock": [
+        {
+          "wofl": "Jungle Japes Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Bowser and Donkey Kong. If already unlocked Sonic, unlocked by Mario"
+        },
+        {
+          "vs-mode": "Play Snake"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 74,
+      "run-speed": 41,
+      "universe": "Pok�mon",
+      "name": "Ivysaur",
+      "weight": 71,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 78
+    },
+    {
+      "image": "",
+      "fall-speed": 64,
+      "unlock": [
+        {
+          "wofl": "Jungle Japes Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Bowser and Donkey Kong. If already unlocked Sonic, unlocked by Mario"
+        },
+        {
+          "vs-mode": "Play Snake"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 75,
+      "run-speed": 45,
+      "universe": "Pok�mon",
+      "name": "Squirtle",
+      "weight": 55,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 72,
+      "unlock": [
+        {
+          "wofl": "Jungle Japes Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Bowser and Donkey Kong. If already unlocked Sonic, unlocked by Mario"
+        },
+        {
+          "vs-mode": "Play Snake"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 82,
+      "run-speed": 57,
+      "universe": "Pok�mon",
+      "name": "Charizard",
+      "weight": 85,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 94
+    },
+    {
+      "image": "",
+      "fall-speed": 72,
+      "unlock": [
+        {
+          "wofl": "Jungle Japes Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Bowser and Donkey Kong. If already unlocked Sonic, unlocked by Mario"
+        },
+        {
+          "vs-mode": "Play Snake"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 82,
+      "run-speed": 57,
+      "universe": "Pok�mon",
+      "name": "Pokemon Trainer",
+      "weight": 85,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 94
+    },
+    {
+      "image": "",
+      "fall-speed": 92,
+      "unlock": [
+        {
+          "wofl": "Lumiose City (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Bayonetta"
+        },
+        {
+          "vs-mode": "Play Robin"
+        }
+      ],
+      "tier": "F",
+      "air-speed": 89,
+      "run-speed": 64,
+      "universe": "Punch-Out!!",
+      "name": "Little Mac",
+      "weight": 64,
+      "spirits": [
+        {
+          "primary": "Giga Mac"
+        },
+        {
+          "slot-1": "Piston Hodo"
+        },
+        {
+          "slot-2": "Victini"
+        },
+        {
+          "slot-3": "Balrog"
+        }
+      ],
+      "dash-speed": 97
+    },
+    {
+      "image": "",
+      "fall-speed": 76,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Luigi"
+        },
+        {
+          "vs-mode": "Play Incineroar"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 84,
+      "run-speed": 44,
+      "universe": "R.O.B.",
+      "name": "R.O.B.",
+      "weight": 78,
+      "spirits": [
+        {
+          "primary": "Dark Daroach"
+        },
+        {
+          "slot-1": "Rock Mario"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 82
+    },
+    {
+      "image": "",
+      "fall-speed": 78,
+      "unlock": [
+        {
+          "wofl": "Sacred Land (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Mario"
+        },
+        {
+          "vs-mode": "Play Mega Man"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 89,
+      "run-speed": 100,
+      "universe": "Sonic",
+      "name": "Sonic",
+      "weight": 63,
+      "spirits": [
+        {
+          "primary": "Beast Ganon"
+        },
+        {
+          "slot-1": "Rock Mario"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Mona"
+        }
+      ],
+      "dash-speed": 95
+    },
+    {
+      "image": "",
+      "fall-speed": 85,
+      "unlock": [
+        {
+          "wofl": "Space (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Peach and Captain Falcon"
+        },
+        {
+          "vs-mode": "Play Shulk"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 72,
+      "run-speed": 42,
+      "universe": "Star Fox",
+      "name": "Falco",
+      "weight": 60,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Mimicutie"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Beat"
+        }
+      ],
+      "dash-speed": 84
+    },
+    {
+      "image": "",
+      "fall-speed": 100,
+      "unlock": [
+        {
+          "wofl": "Heart Pool Mountain (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Young Link"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 82,
+      "run-speed": 62,
+      "universe": "Star Fox",
+      "name": "Fox",
+      "weight": 57,
+      "spirits": [
+        {
+          "primary": "Waluigi"
+        },
+        {
+          "slot-1": "Mimicutie"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Beat"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 85,
+      "unlock": [
+        {
+          "wofl": "Mysterious Dimension (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Peach"
+        },
+        {
+          "vs-mode": "Play Olimar"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 95,
+      "run-speed": 40,
+      "universe": "Star Fox",
+      "name": "Wolf",
+      "weight": 68,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Ricky"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Reaper & Reapette"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 76,
+      "unlock": [
+        {
+          "wofl": "Dracula\u2019s Castle (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Duck Hunt"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 83,
+      "run-speed": 45,
+      "universe": "Street Fighter",
+      "name": "Ken",
+      "weight": 76,
+      "spirits": [
+        {
+          "primary": "Waluigi"
+        },
+        {
+          "slot-1": "Mimicutie"
+        },
+        {
+          "slot-2": "Weezing"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 80
+    },
+    {
+      "image": "",
+      "fall-speed": 76,
+      "unlock": [
+        {
+          "wofl": "World Tour Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Marth"
+        },
+        {
+          "vs-mode": "Play"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 83,
+      "run-speed": 41,
+      "universe": "Street Fighter",
+      "name": "Ryu",
+      "weight": 76,
+      "spirits": [
+        {
+          "primary": "Giga Mac"
+        },
+        {
+          "slot-1": "Ricky"
+        },
+        {
+          "slot-2": "Weezing"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 72
+    },
+    {
+      "image": "",
+      "fall-speed": 91,
+      "unlock": [
+        {
+          "wofl": "Sacred Realm. Complete a puzzle involving red and blue torches (World of Dark)"
+        },
+        {
+          "classic-mode": "Not Playable in Classic"
+        },
+        {
+          "vs-mode": "Play Cloud"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 85,
+      "run-speed": 49,
+      "universe": "Super Smash Bros.",
+      "name": "Mii Brawler",
+      "weight": 69,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 77
+    },
+    {
+      "image": "",
+      "fall-speed": 69,
+      "unlock": [
+        {
+          "wofl": "Alola Islands (World of Light)"
+        },
+        {
+          "classic-mode": "Not Playable in Classic"
+        },
+        {
+          "vs-mode": "Play Ken"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 69,
+      "run-speed": 35,
+      "universe": "Super Smash Bros.",
+      "name": "Mii Gunner",
+      "weight": 77,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 67
+    },
+    {
+      "image": "",
+      "fall-speed": 73,
+      "unlock": [
+        {
+          "wofl": "Villager route (World of Light)"
+        },
+        {
+          "classic-mode": "Not Playable in Classic"
+        },
+        {
+          "vs-mode": "Play Duck Hunt"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 87,
+      "run-speed": 41,
+      "universe": "Super Smash Bros.",
+      "name": "Mii Swordfighter",
+      "weight": 74,
+      "spirits": [
+        {
+          "primary": ""
+        },
+        {
+          "slot-1": ""
+        },
+        {
+          "slot-2": ""
+        },
+        {
+          "slot-3": ""
+        }
+      ],
+      "dash-speed": 71
+    },
+    {
+      "image": "",
+      "fall-speed": 76,
+      "unlock": [
+        {
+          "wofl": "Defeat Mummy Spirit's at Dracula's Castle before encounter (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Cloud"
+        },
+        {
+          "vs-mode": "Play Richter"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 94,
+      "run-speed": 42,
+      "universe": "Wario",
+      "name": "Wario",
+      "weight": 79,
+      "spirits": [
+        {
+          "primary": "Giga Mac"
+        },
+        {
+          "slot-1": "Ricky"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Mona"
+        }
+      ],
+      "dash-speed": 75
+    },
+    {
+      "image": "",
+      "fall-speed": 75,
+      "unlock": [
+        {
+          "wofl": "Waterfall Peak (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Pikachu"
+        },
+        {
+          "vs-mode": "Play Bowser Jr"
+        }
+      ],
+      "tier": "B",
+      "air-speed": 82,
+      "run-speed": 43,
+      "universe": "Xenoblade",
+      "name": "Shulk",
+      "weight": 71,
+      "spirits": [
+        {
+          "primary": "Alucard"
+        },
+        {
+          "slot-1": "Victini"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Shine Sprite"
+        }
+      ],
+      "dash-speed": 77
+    },
+    {
+      "image": "",
+      "fall-speed": 61,
+      "unlock": [
+        {
+          "wofl": "Villager route (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Villager"
+        }
+      ],
+      "tier": "S",
+      "air-speed": 100,
+      "run-speed": 53,
+      "universe": "Yoshi",
+      "name": "Yoshi",
+      "weight": 77,
+      "spirits": [
+        {
+          "primary": "Waluigi"
+        },
+        {
+          "slot-1": "Mimicutie"
+        },
+        {
+          "slot-2": "Rathalos"
+        },
+        {
+          "slot-3": "Beat"
+        }
+      ],
+      "dash-speed": 81
+    },
+    {
+      "image": "",
+      "fall-speed": 78,
+      "unlock": [
+        {
+          "wofl": "Sacred Land (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Ryu"
+        },
+        {
+          "vs-mode": "Play Pokemon Trainer"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 61,
+      "run-speed": 34,
+      "universe": "Zelda",
+      "name": "Ganondorf",
+      "weight": 87,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Wolfen"
+        },
+        {
+          "slot-2": "Rock Mario"
+        },
+        {
+          "slot-3": "Victini"
+        }
+      ],
+      "dash-speed": 77
+    },
+    {
+      "image": "",
+      "fall-speed": 76,
+      "unlock": [
+        {
+          "wofl": "Villager route (World of Light)"
+        },
+        {
+          "classic-mode": "Original 8"
+        },
+        {
+          "vs-mode": "Play Bowser"
+        }
+      ],
+      "tier": "D",
+      "air-speed": 68,
+      "run-speed": 39,
+      "universe": "Zelda",
+      "name": "Link",
+      "weight": 77,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Wind Fish"
+        },
+        {
+          "slot-3": "Hard Man"
+        }
+      ],
+      "dash-speed": 81
+    },
+    {
+      "image": "",
+      "fall-speed": 83,
+      "unlock": [
+        {
+          "wofl": "Starting Path (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by King Dedede, Pokemon Trainer"
+        },
+        {
+          "vs-mode": "Play Simon"
+        }
+      ],
+      "tier": "A",
+      "air-speed": 85,
+      "run-speed": 62,
+      "universe": "Zelda",
+      "name": "Sheik",
+      "weight": 57,
+      "spirits": [
+        {
+          "primary": "Chun-Li"
+        },
+        {
+          "slot-1": "Rathalos"
+        },
+        {
+          "slot-2": "Beat"
+        },
+        {
+          "slot-3": "Mona"
+        }
+      ],
+      "dash-speed": 90
+    },
+    {
+      "image": "",
+      "fall-speed": 65,
+      "unlock": [
+        {
+          "wofl": "Forest Hill Zone (World of Light)"
+        },
+        {
+          "classic-mode": "Unlocked by Richter"
+        },
+        {
+          "vs-mode": "Play Sheik"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 78,
+      "run-speed": 49,
+      "universe": "Zelda",
+      "name": "Toon LInk",
+      "weight": 67,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Wind Fish"
+        },
+        {
+          "slot-3": "Hard Man"
+        }
+      ],
+      "dash-speed": 79
+    },
+    {
+      "image": "",
+      "fall-speed": 85,
+      "unlock": [
+        {
+          "wofl": "Sacred Land (World of Dark)"
+        },
+        {
+          "classic-mode": "Unlocked by Simon"
+        },
+        {
+          "vs-mode": "Play Ridley"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 71,
+      "run-speed": 45,
+      "universe": "Zelda",
+      "name": "Young Link",
+      "weight": 65,
+      "spirits": [
+        {
+          "primary": "Sirius"
+        },
+        {
+          "slot-1": "Shine Sprite"
+        },
+        {
+          "slot-2": "Wind Fish"
+        },
+        {
+          "slot-3": "Hard Man"
+        }
+      ],
+      "dash-speed": 86
+    },
+    {
+      "image": "",
+      "fall-speed": 64,
+      "unlock": [
+        {
+          "wofl": "Sacred Land (World of Dark)"
+        },
+        {
+          "classic-mode": ""
+        },
+        {
+          "vs-mode": "Play Zero Suit Samus"
+        }
+      ],
+      "tier": "C",
+      "air-speed": 81,
+      "run-speed": 37,
+      "universe": "Zelda",
+      "name": "Zelda",
+      "weight": 62,
+      "spirits": [
+        {
+          "primary": "Marx (True Form)"
+        },
+        {
+          "slot-1": "Wanda"
+        },
+        {
+          "slot-2": "Reaper & Reapette"
+        },
+        {
+          "slot-3": "Victini"
+        }
+      ],
+      "dash-speed": 80
+    }
+  ]
+}
