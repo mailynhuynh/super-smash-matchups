@@ -1,0 +1,29 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+
+    p{
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
+    ul{
+
+        list-style: none;
+        font-size: 16px;
+
+        li{
+        padding: 8px 0}
+    }}
+    .col2,.col3{
+        ul{padding: 0}
+    }
+    .col2{
+        margin: 0 0 0 140px;
+    }
+    .col3{
+        margin: 0 0 0 80px;
+    }
+}
