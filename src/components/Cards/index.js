@@ -2,14 +2,14 @@ import React from "react";
 
 import "./style.scss";
 
-const Cards = ({ id, color, handler, name, filled }) => {
+const Cards = ({ id, image, handler, name, filled }) => {
     return (
         <div
             className={filled ? `card filled` : "card"}
             onClick={filled ? null : () => handler(id)}
         >
             <div className={`card-content`}>
-                <div className="card-image" style={{ background: color }} />
+                <img src={image} alt="avatar" />
                 <div className="card-body">
                     <span className="name">{name}</span>
                 </div>
