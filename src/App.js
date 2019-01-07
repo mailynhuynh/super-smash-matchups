@@ -6,11 +6,19 @@ import char from "./data/characters.json";
 import Slider from "react-slick";
 import "./base.scss";
 import Stats from "./components/Stats/Stats";
-import { Actions } from "./store/actions/index";
-import { connect } from "react-redux";
 import Spinner from "./components/Spinner/Spinner";
+
 import firebase from "firebase";
 
+const projectId = "super-smash-matchups";
+
+var config = {
+    apiKey: "AIzaSyDUAeMJRPkI2Rn5cgujTRzWupryJmo-J4o",
+    authDomain: `${projectId}.firebaseapp.com`,
+    databaseURL: `${projectId}.firebaseio.com`,
+    storageBucket: `${projectId}.appspot.com`
+};
+firebase.initializeApp(config);
 class App extends Component {
     constructor(props) {
         super(props);
@@ -20,38 +28,35 @@ class App extends Component {
             status: "",
             keyArray: { key1: null, key2: null },
             filled: false,
-            images: [],
             fetched: false
         };
     }
 
-    // static getStateFromDerivedProps(props, state){}
-
     componentDidMount() {
         const { arr } = this.state;
-        console.log("mounted");
-        // this.props.dispatch(Actions.fetch({ arr: arr }));
-
         const storage = firebase.storage().ref();
 
-        const imgUrl = [];
         for (let key in arr) {
+            console.log(key);
             const storageRef = storage.child(`img/${arr[key].name}.png`);
 
             storageRef
                 .getDownloadURL()
-                .then(function(url) {
-                    imgUrl.push({ key: arr[key].name, url: url });
-                    arr[key].image = url;
+                .then(url => {
+                    const newArr = [...arr];
+                    newArr[key].image = url;
+                    this.setState(prevState => {
+                        return {
+                            ...prevState,
+                            fetched: true,
+                            arr: newArr
+                        };
+                    });
                 })
                 .catch(function(error) {
                     console.log({ error });
                 });
         }
-
-        setTimeout(() => {
-            this.setState({ images: imgUrl, fetched: true });
-        }, 2000);
     }
 
     handleSelection = key => {
@@ -158,48 +163,46 @@ class App extends Component {
             slidesToScroll: 1,
             focusOnSelect: filled ? false : true
         };
-        if (fetched) {
-            return (
-                <div>
-                    <header>
-                        <div className="main-container">
-                            Super Smash Bros Matchups
-                        </div>
-                    </header>
-                    <div className="main-container">
-                        <h2>Choose two characters</h2>
-                        <Slider {...settings}>
-                            {characters.map(character => {
-                                return (
-                                    <div
-                                        className="characters"
-                                        key={character.props.id}
-                                    >
-                                        {character}
-                                    </div>
-                                );
-                            })}
-                        </Slider>
-                        <div className="slots">
-                            <Slot name={selectedCard} id="slot-1" />
-                            <Slot name={selectedCard2} id="slot-2" />
-                        </div>
-                    </div>
-                    {keyArray.key1 !== null && keyArray.key2 !== null ? (
-                        <Stats
-                            slot1={arr[keyArray.key1]}
-                            slot2={arr[keyArray.key2]}
-                        />
-                    ) : null}
-                </div>
-            );
+        if (!fetched) {
+            return <Spinner text={"Loading..."} />;
         }
-        return <Spinner text={"Loading..."} />;
+
+        const renderStats = keyArray.key1 !== null && keyArray.key2 !== null;
+        return (
+            <div>
+                <header>
+                    <div className="main-container">
+                        Super Smash Bros Matchups
+                    </div>
+                </header>
+                <div className="main-container">
+                    <h2>Choose two characters</h2>
+                    <Slider {...settings}>
+                        {characters.map(character => {
+                            return (
+                                <div
+                                    className="characters"
+                                    key={character.props.id}
+                                >
+                                    {character}
+                                </div>
+                            );
+                        })}
+                    </Slider>
+                    <div className="slots">
+                        <Slot name={selectedCard} id="slot-1" />
+                        <Slot name={selectedCard2} id="slot-2" />
+                    </div>
+                </div>
+                {renderStats ? (
+                    <Stats
+                        slot1={arr[keyArray.key1]}
+                        slot2={arr[keyArray.key2]}
+                    />
+                ) : null}
+            </div>
+        );
     }
 }
 
-const mapStateToProps = state => {
-    const { url } = state.fetch_reducer;
-    return { url };
-};
-export default connect(mapStateToProps)(App);
+export default App;
