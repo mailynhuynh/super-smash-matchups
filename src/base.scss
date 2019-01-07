@@ -19,23 +19,33 @@ body {
 }
 
 header {
-    background: black;
+    background: #232f34;
     color: white;
     padding: 20px;
     margin-bottom: 60px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
 }
+
 
 .main-container {
     max-width: 960px;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    clear: both;
+    overflow: hidden;
 
     @media (max-width: 960px) {
         width: 90%;
         margin: 0 auto;
         padding: 0;
         box-sizing: border-box;
+    }
+    @media (min-width: 1540px){
+        max-width: 1200px;
     }
 }
 
