@@ -11,7 +11,7 @@ $xsm: 320px; // phones
         display: inline-block;
         border: 5px solid #444;
         border-style: dashed;
-        height: 310px;
+        min-height: 307px;
         width: 310px;
         margin: 20px;
         vertical-align: top;
@@ -19,10 +19,15 @@ $xsm: 320px; // phones
         .card {
             height: fit-content;
             background: white;
-            margin: -5px -5px;
+            margin: -5px;
 
             .card-content{
                 background: cadetblue;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%
             }
             img {
                 height: 257px;
@@ -33,7 +38,7 @@ $xsm: 320px; // phones
                 padding: 10px;
                 height: 40px;
                 font-size: 24px;
-                font-weight: 900px;
+                font-weight: 900;
                 color: #fff;
             }
 
@@ -43,33 +48,28 @@ $xsm: 320px; // phones
             }
 
             @media (max-width: $md) {
-                height: 210px;
 
                 .card-image {
                     height: 150px;
                 }
             }
         }
-        
+
         @media (max-width: $md) {
             width: 200px;
-            height: 370px;
             .card-content{
-                height: 380px;
                 img{
-                    padding: 20px;
-                    width: 190px;
+                    width: 200px;
                 }
             }
         }
         @media (max-width: $sm) {
-            height: 200px;
-            width: 110px;
+            min-height: 150px;
+            width: 135px;
             .card-content{
-                height: 210px;
                 img{
                     height: 120px;
-                    width: 90px;
+                    width: 135px;
                 }
                 .card-body{
                     font-size: 15px;
@@ -79,9 +79,6 @@ $xsm: 320px; // phones
         }
         @media (max-width: $xsm) {
             width: 90px;
-            // .card-content{
-            //     width: 100px;
-            // }
         }
     }
 }

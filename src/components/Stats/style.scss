@@ -1,36 +1,32 @@
-$xlg: 1024px; // larger displays
-$lg: 960px; // small laptop screens and large tablets
-$md: 820px; // tablets
-$sm: 578px; // large phones, small tablets
-$xsm: 320px; // phones
-
 .stats{
     display: flex;
     flex-wrap: wrap;
     .row{
-        flex-basis: 100%;
+        width: 100%;
         flex-wrap: wrap;
         display: flex;
         padding: 16px 20px 12px;
         margin: 5px -1px;
-        
+
+        .result-cont{
+            display: flex;
+            width: 100%;
+        }
         .name{
             display: block;
             text-align: center;
             font-family: 'karla';
             font-size: 18px;
-            flex-basis: 100%;
+            width: 100%;
             padding: 5px;
         }
         .results{
-            // text-align: center;
             background: white;
             padding: 16px 20px 12px;
             box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
-            width: 42%;
             display: inline-block;
             text-align: center;
-            flex-basis: 45.64%;
+            width: 50%;
         }
 
         .stat-box{
@@ -44,28 +40,6 @@ $xsm: 320px; // phones
             .name{
                 background: #232f34;
                 color: #f9f9f9;
-            }
-        }
-    }
-
-    @media (max-width:$lg) {
-        .row{
-            .results{
-                flex-basis: 44.1%;
-            }
-        }
-    }
-    @media (max-width:$md){
-        .row{
-            .results{
-                flex-basis: 40%;
-            }
-        }
-    }
-    @media (max-width:$sm){
-        .row{
-            .results{
-                flex-basis: 37.2%;
             }
         }
     }

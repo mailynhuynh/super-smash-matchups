@@ -584,7 +584,7 @@
           "wofl": "Starting Path (World of Light)"
         },
         {
-          "classic_mode": ""
+          "classic_mode": "-"
         },
         {
           "vs_mode": "Play Wario"
@@ -1553,10 +1553,10 @@
       "fall_speed": 0,
       "unlock": [
         {
-          "wofl": ""
+          "wofl": "-"
         },
         {
-          "classic_mode": ""
+          "classic_mode": "-"
         },
         {
           "vs_mode": "Play"
@@ -1570,16 +1570,16 @@
       "weight": 0,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 0
@@ -1844,7 +1844,7 @@
           "wofl": "Mysterious Dimension, defeat Wispy Woods\u2019 spirit (World of Dark)"
         },
         {
-          "classic_mode": ""
+          "classic_mode": "-"
         },
         {
           "vs_mode": "Play Daisy"
@@ -1961,21 +1961,21 @@
       "tier": "C",
       "air_speed": 74,
       "run_speed": 41,
-      "universe": "Pok�mon",
+      "universe": "Pokemon",
       "name": "Ivysaur",
       "weight": 71,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 78
@@ -1997,21 +1997,21 @@
       "tier": "C",
       "air_speed": 75,
       "run_speed": 45,
-      "universe": "Pok�mon",
+      "universe": "Pokemon",
       "name": "Squirtle",
       "weight": 55,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 80
@@ -2038,16 +2038,16 @@
       "weight": 85,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 94
@@ -2398,16 +2398,16 @@
       "weight": 69,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 77
@@ -2434,16 +2434,16 @@
       "weight": 77,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 67
@@ -2470,16 +2470,16 @@
       "weight": 74,
       "spirits": [
         {
-          "primary": ""
+          "primary": "-"
         },
         {
-          "slot_1": ""
+          "slot_1": "-"
         },
         {
-          "slot_2": ""
+          "slot_2": "-"
         },
         {
-          "slot_3": ""
+          "slot_3": "-"
         }
       ],
       "dash_speed": 71

@@ -9,7 +9,7 @@ const Cards = ({ id, image, handler, name, filled }) => {
             onClick={filled ? null : () => handler(id)}
         >
             <div className={`card-content`}>
-                <img src={image} alt="avatar" />
+                <img src={image} alt={name} />
                 <div className="card-body">
                     <span className="name">{name}</span>
                 </div>
