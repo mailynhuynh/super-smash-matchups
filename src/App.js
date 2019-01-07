@@ -152,35 +152,69 @@ class App extends Component {
 
         const settings = {
             infinite: true,
-            speed: 50,
-            slidesToShow: 3,
-            centerMode: true,
-            slidesToScroll: 1,
-            focusOnSelect: filled ? false : true
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 5,
+            focusOnSelect: filled ? false : true,
+            responsive:[
+                {
+                    breakpoint: 1540,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4
+                    },
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    },
+                },
+                {
+                    breakpoint: 860,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    },
+                },
+                {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
         };
         if (fetched) {
             return (
                 <div>
                     <header>
                         <div className="main-container">
-                            Super Smash Bros Matchups
+                            <a href="/#">
+                                Super Smash Bros Matchups
+                            </a>
                         </div>
                     </header>
-                    <div className="main-container">
+                    <div className="main-container images">
                         <h2>Choose two characters</h2>
-                        <Slider {...settings}>
-                            {characters.map(character => {
-                                return (
-                                    <div
-                                        className="characters"
-                                        key={character.props.id}
-                                    >
-                                        {character}
-                                    </div>
-                                );
-                            })}
-                        </Slider>
+                        <div style={{padding: '30px'}}>
+                            <Slider {...settings}>
+                                {characters.map(character => {
+                                    return (
+                                        <div
+                                            className="characters"
+                                            key={character.props.id}
+                                        >
+                                            {character}
+                                        </div>
+                                    );
+                                })}
+                            </Slider>
+                        </div>
                         <div className="slots">
+                            <h2>Selected Characters:</h2>
                             <Slot name={selectedCard} id="slot-1" />
                             <Slot name={selectedCard2} id="slot-2" />
                         </div>
@@ -191,6 +225,17 @@ class App extends Component {
                             slot2={arr[keyArray.key2]}
                         />
                     ) : null}
+                    {/* <footer>
+                        <div className="main-container">
+                            <div className="left">
+                                <span className="copy">&copy; Oleka & Kamsi</span>
+                            </div>
+                            <div className="right">
+                                <a href="#">Portfolio1</a>
+                                <a href="#">Portfolio2</a>
+                            </div>
+                        </div>
+                    </footer> */}
                 </div>
             );
         }

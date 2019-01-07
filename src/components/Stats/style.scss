@@ -1,29 +1,72 @@
-.container{
-    width: 70%;
-    margin: 0 auto;
+$xlg: 1024px; // larger displays
+$lg: 960px; // small laptop screens and large tablets
+$md: 820px; // tablets
+$sm: 578px; // large phones, small tablets
+$xsm: 320px; // phones
+
+.stats{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    .row{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        padding: 16px 20px 12px;
+        margin: 5px -1px;
+        
+        .name{
+            display: block;
+            text-align: center;
+            font-family: 'karla';
+            font-size: 18px;
+            flex-basis: 100%;
+            padding: 5px;
+        }
+        .results{
+            // text-align: center;
+            background: white;
+            padding: 16px 20px 12px;
+            box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+            width: 42%;
+            display: inline-block;
+            text-align: center;
+            flex-basis: 45.64%;
+        }
 
-    p{
-        font-size: 20px;
+        .stat-box{
+            background: white;
+            margin: 0;
+            padding: 0;
+            box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16);
+            .results{
+                box-shadow: none;
+            }
+            .name{
+                background: #232f34;
+                color: #f9f9f9;
+            }
+        }
     }
-    span{
-        font-size: 20px;
-    ul{
 
-        list-style: none;
-        font-size: 16px;
-
-        li{
-        padding: 8px 0}
-    }}
-    .col2,.col3{
-        ul{padding: 0}
+    @media (max-width:$lg) {
+        .row{
+            .results{
+                flex-basis: 44.1%;
+            }
+        }
     }
-    .col2{
-        margin: 0 0 0 140px;
+    @media (max-width:$md){
+        .row{
+            .results{
+                flex-basis: 40%;
+            }
+        }
     }
-    .col3{
-        margin: 0 0 0 80px;
+    @media (max-width:$sm){
+        .row{
+            .results{
+                flex-basis: 37.2%;
+            }
+        }
     }
 }
