@@ -1,12 +1,17 @@
+$xlg: 1024px; // larger displays
+$lg: 960px; // small laptop screens and large tablets
+$md: 820px; // tablets
+$sm: 578px; // large phones, small tablets
+$xsm: 320px; // phones
+
 .slots {
     text-align: center;
-    height: 400px;
 
     div#slot-1, div#slot-2 {
         display: inline-block;
         border: 5px solid #444;
         border-style: dashed;
-        height: 310px;
+        min-height: 307px;
         width: 310px;
         margin: 20px;
         vertical-align: top;
@@ -14,10 +19,15 @@
         .card {
             height: fit-content;
             background: white;
-            margin: -5px -5px;
+            margin: -5px;
 
             .card-content{
-background: cadetblue;
+                background: cadetblue;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%
             }
             img {
                 height: 257px;
@@ -28,18 +38,16 @@ background: cadetblue;
                 padding: 10px;
                 height: 40px;
                 font-size: 24px;
-                font-weight: 900px;
-                color: #fff
+                font-weight: 900;
+                color: #fff;
             }
 
             &:hover {
-                // to delete card from slot
                 cursor: pointer;
                 opacity: 0.8;
             }
 
-            @media (max-width: 960px) {
-                height: 210px;
+            @media (max-width: $md) {
 
                 .card-image {
                     height: 150px;
@@ -47,9 +55,30 @@ background: cadetblue;
             }
         }
 
-        @media (max-width: 960px) {
-            height: 200px;
-            width: 30%;
+        @media (max-width: $md) {
+            width: 200px;
+            .card-content{
+                img{
+                    width: 200px;
+                }
+            }
+        }
+        @media (max-width: $sm) {
+            min-height: 150px;
+            width: 135px;
+            .card-content{
+                img{
+                    height: 120px;
+                    width: 135px;
+                }
+                .card-body{
+                    font-size: 15px;
+                    padding: 0 10px;
+                }
+            }
+        }
+        @media (max-width: $xsm) {
+            width: 90px;
         }
     }
 }
