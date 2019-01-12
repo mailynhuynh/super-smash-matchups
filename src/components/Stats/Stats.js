@@ -5,7 +5,7 @@ class Stats extends Component {
     render() {
         const { slot1, slot2 } = this.props;
         return (
-            <div>
+            <div id="statistics">
                 <div className="main-container stats">
                     <div className="row">
                         <span className="name">Universe</span>
