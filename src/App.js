@@ -205,7 +205,8 @@ class App extends Component {
                     </div>
                 </header>
                 <div className="main-container images">
-                    <h2>Choose two characters</h2>
+                    <p>Compare characters from the super smash bros. ultimate character list</p>
+                    <h2>Choose two characters:</h2>
                     <div style={{ padding: "30px" }}>
                         <Slider {...settings}>
                             {characters.map(character => {
@@ -222,6 +223,7 @@ class App extends Component {
                     </div>
                     <div className="slots">
                         <h2>Selected Characters:</h2>
+                        <p>click on a slot to remove a character</p>
                         <Slot name={selectedCard} id="slot-1" />
                         <Slot name={selectedCard2} id="slot-2" />
                     </div>

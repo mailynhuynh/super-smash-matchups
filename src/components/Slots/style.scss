@@ -27,7 +27,7 @@ $xsm: 320px; // phones
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                height: 100%
+                height: 100%;
             }
             img {
                 height: 257px;
@@ -65,11 +65,11 @@ $xsm: 320px; // phones
         }
         @media (max-width: $sm) {
             min-height: 150px;
-            width: 135px;
+            width: 116px;
             .card-content{
                 img{
                     height: 120px;
-                    width: 135px;
+                    width: 116px;
                 }
                 .card-body{
                     font-size: 15px;
@@ -79,6 +79,11 @@ $xsm: 320px; // phones
         }
         @media (max-width: $xsm) {
             width: 90px;
+            .card-content{
+                img{
+                    width: 95px;
+                }
+            }
         }
     }
 }
