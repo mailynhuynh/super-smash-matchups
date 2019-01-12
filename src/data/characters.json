@@ -1622,42 +1622,6 @@
     },
     {
       "image": "",
-      "fall_speed": 64,
-      "unlock": [
-        {
-          "wofl": "Marth Route (World of Light)"
-        },
-        {
-          "classic_mode": "Unlocked by Little Mac"
-        },
-        {
-          "vs_mode": "Play Toon Link"
-        }
-      ],
-      "tier": "B",
-      "air_speed": 64,
-      "run_speed": 42,
-      "universe": "Pikmin",
-      "name": "Olimar",
-      "weight": 58,
-      "spirits": [
-        {
-          "primary": "Chun-Li"
-        },
-        {
-          "slot_1": "Rathalos"
-        },
-        {
-          "slot_2": "Julius Belmont"
-        },
-        {
-          "slot_3": "Reaper & Reapette"
-        }
-      ],
-      "dash_speed": 66
-    },
-    {
-      "image": "",
       "fall_speed": 75,
       "unlock": [
         {

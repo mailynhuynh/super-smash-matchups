@@ -9,6 +9,7 @@ import Stats from "./components/Stats/Stats";
 import Spinner from "./components/Spinner/Spinner";
 
 import firebase from "firebase";
+import { IconDownArrow } from "./components/svg";
 
 const projectId = "super-smash-matchups";
 
@@ -28,7 +29,8 @@ class App extends Component {
             status: "",
             keyArray: { key1: null, key2: null },
             filled: false,
-            fetched: false
+            fetched: false,
+            displayAnim: false
         };
     }
 
@@ -56,6 +58,25 @@ class App extends Component {
                     console.log({ error });
                 });
         }
+
+        window.addEventListener("scroll", this.listenToScroll);
+    }
+
+    listenToScroll = e => {
+        const { key1, key2 } = this.state.keyArray;
+        if (key1 !== null && key2 !== null) {
+            const statsScroll = this.Stats._reactInternalFiber.child.stateNode
+                .offsetTop;
+            if (window.pageYOffset > statsScroll) {
+                this.setState(prevState => {
+                    return { ...prevState, displayAnim: false };
+                });
+            }
+        }
+    };
+
+    componentWillUnmount() {
+        window.removeEventListener("scroll", this.listenToScroll);
     }
 
     handleSelection = key => {
@@ -65,19 +86,22 @@ class App extends Component {
                 return {
                     ...prevState,
                     keyArray: { key1, key2: key },
-                    filled: true
+                    filled: true,
+                    displayAnim: true
                 };
             } else if (key1 !== null && key2 !== null) {
                 return {
                     ...prevState,
                     keyArray: { key1, key2 },
-                    filled: true
+                    filled: true,
+                    displayAnim: true
                 };
             } else if (key2 !== key && key2 !== null && key1 === null) {
                 return {
                     ...prevState,
                     keyArray: { key1: key, key2 },
-                    filled: true
+                    filled: true,
+                    displayAnim: true
                 };
             } else if (key1 === null) {
                 return {
@@ -109,7 +133,7 @@ class App extends Component {
     };
 
     render() {
-        const { arr, keyArray, filled, fetched } = this.state;
+        const { arr, keyArray, filled, fetched, displayAnim } = this.state;
         let characters = [];
         let chars = [];
 
@@ -201,11 +225,14 @@ class App extends Component {
             <div>
                 <header>
                     <div className="main-container">
-                        <a href="/#">Super Smash Bros Matchups</a>
+                        <h2>Super Smash Bros Matchups</h2>
                     </div>
                 </header>
                 <div className="main-container images">
-                    <p>Compare characters from the super smash bros. ultimate character list</p>
+                    <p>
+                        Compare characters from the Super Smash Bros. Ultimate
+                        character list
+                    </p>
                     <h2>Choose two characters:</h2>
                     <div style={{ padding: "30px" }}>
                         <Slider {...settings}>
@@ -223,29 +250,26 @@ class App extends Component {
                     </div>
                     <div className="slots">
                         <h2>Selected Characters:</h2>
-                        <p>click on a slot to remove a character</p>
+                        {keyArray.key1 !== null || keyArray.key2 !== null ? (
+                            <p>Click on a slot to remove a character</p>
+                        ) : null}
                         <Slot name={selectedCard} id="slot-1" />
                         <Slot name={selectedCard2} id="slot-2" />
                     </div>
+                    {renderStats && displayAnim ? (
+                        <div className="arrow bounce">
+                            <IconDownArrow />
+                        </div>
+                    ) : null}
                 </div>
 
                 {renderStats ? (
                     <Stats
+                        ref={ref => (this.Stats = ref)}
                         slot1={arr[keyArray.key1]}
                         slot2={arr[keyArray.key2]}
                     />
                 ) : null}
-                {/* <footer>
-                        <div className="main-container">
-                            <div className="left">
-                                <span className="copy">&copy; Oleka & Kamsi</span>
-                            </div>
-                            <div className="right">
-                                <a href="#">Portfolio1</a>
-                                <a href="#">Portfolio2</a>
-                            </div>
-                        </div>
-                    </footer> */}
             </div>
         );
     }

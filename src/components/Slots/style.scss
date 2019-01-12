@@ -15,6 +15,9 @@ $xsm: 320px; // phones
         width: 310px;
         margin: 20px;
         vertical-align: top;
+        @media (max-width: 424px){
+            margin: 20px 10px;
+        }
 
         .card {
             height: fit-content;
@@ -77,11 +80,11 @@ $xsm: 320px; // phones
                 }
             }
         }
-        @media (max-width: $xsm) {
+        @media (max-width: 424px) {
             width: 90px;
             .card-content{
                 img{
-                    width: 95px;
+                    width: 90px;
                 }
             }
         }

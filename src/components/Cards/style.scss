@@ -30,6 +30,11 @@
                 transition: all 1s cubic-bezier(0.25, 0.1, 0.25, 1);
                 box-shadow: 5px 5px 20px #999;
                 cursor: pointer;
+                @media (min-width: 320px) and (max-width: 1024px){
+                    transition: none;
+                    transform: none;
+                    box-shadow: none;
+                }
             }
         }
 
