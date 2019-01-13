@@ -140,7 +140,7 @@ class App extends Component {
         for (let i = 0; i < arr.length; i++) {
             characters.push(
                 <Cards
-                    key={keyArray}
+                    key={arr[i].name.toString()}
                     id={i}
                     name={arr[i].name}
                     handler={this.handleSelection}
@@ -150,7 +150,7 @@ class App extends Component {
             );
             chars.push(
                 <Cards
-                    key={keyArray}
+                    key={arr[i].name.toString()}
                     id={i}
                     name={arr[i].name}
                     handler={this.updateSlots}
