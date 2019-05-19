@@ -1624,42 +1624,6 @@
       "image": "",
       "unlock": [
         {
-          "wofl": "Marth Route (World of Light)"
-        },
-        {
-          "classic_mode": "Unlocked by Little Mac"
-        },
-        {
-          "vs_mode": "Play Toon Link"
-        }
-      ],
-      "tier": "A",
-      "fall_speed": 64,
-      "run_speed": 42,
-      "universe": "Pikmin",
-      "air_speed": 64,
-      "name": "Olimar",
-      "dash_speed": 66,
-      "weight": 58,
-      "spirits": [
-        {
-          "primary": "Chun-Li"
-        },
-        {
-          "slot_1": "Rathalos"
-        },
-        {
-          "slot_2": "Julius Belmont"
-        },
-        {
-          "slot_3": "Reaper & Reapette"
-        }
-      ]
-    },
-    {
-      "image": "",
-      "unlock": [
-        {
           "wofl": "Nintendo Themed City Northwest of Srarting Area (World of Light)"
         },
         {
